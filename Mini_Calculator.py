@@ -46,7 +46,8 @@ class CalculatorApp:
                             borderwidth=10, 
                             relief="ridge",
                             width=13,
-                            height=2)
+                            height=2,
+                            padx=5)
         label.pack()
 
         frame = tkinter.Frame(master=self.window)

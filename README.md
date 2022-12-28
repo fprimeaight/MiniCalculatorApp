@@ -1,2 +1,2 @@
-# Mini_Calculator
+# MiniCalculatorApp
 A mini calculator with only basic operations implemented in it.

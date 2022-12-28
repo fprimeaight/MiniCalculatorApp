@@ -25,7 +25,7 @@ class CalculatorApp:
         try:
             ans = str(round(eval(self.expr_txt),6))
             self.expr_label.set(ans)
-            self.expr_txt = ''
+            self.expr_txt = ans
         except:
             self.expr_txt = ''
             self.expr_label.set('Error')
@@ -42,7 +42,7 @@ class CalculatorApp:
         label = tkinter.Label(master=self.window,
                             textvariable=self.expr_label,
                             font=('Calibri',24,'bold'),
-
+                            anchor='e',
                             borderwidth=10, 
                             relief="ridge",
                             width=13,

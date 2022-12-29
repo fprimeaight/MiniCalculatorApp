@@ -42,7 +42,7 @@ class CalculatorApp:
         label = tkinter.Label(master=self.window,
                             textvariable=self.expr_label,
                             font=('Calibri',24,'bold'),
-                            anchor='e',
+                            anchor='se',
                             borderwidth=10, 
                             relief="ridge",
                             width=13,
